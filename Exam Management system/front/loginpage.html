@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<title>Login-Page</title>
+<style>
+
+
+body {
+  background-color: lightblue;
+}
+
+
+p  {
+    color: white;
+    font-family: courier;
+    font-size: 160%;
+	
+	 text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h1 {
+    color: white;
+    font-family: Times new Roman;
+    font-size: 300%;a
+	
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="front/style1.css" rel="stylesheet" type="text/css" >
+
+<body  background= "20.jpg"></body>
+
+	
+<!--------------------------- Sign-In FORM------------------------------>
+<br><div class="w3-container w3-center w3-card-4">
+<center><img src="/public/30.jpg"  width="25%"></center>
+<div class="w3-container w3-center w3-card-8"></div>
+ 
+  <p><marquee><b> -----UT MANAGEMENT SYSTEM-----</b></marquee></p>
+
+ <div class="w3-container " style="margin-left: 37%" >
+    
+	<form class="w3-form w3-card-8 w3-animate-opacity w3-white" style="width:43%" action="/project/login.php" method="post">
+	
+	<img src="/public/20.jpg" style="width:100%"><br><br>
+		<div class="w3-large w3-text-white w3-center w3-black">Login-Page</div>
+		
+		 <br>
+		<div class="w3-row w3-center">
+		<div class="w3-half">
+		<input class="w3-radio " type="radio" name="level" value="0" checked>
+		<label class="w3-validate">Staff</label></div>
+		
+		<div class="w3-half">
+		<input class="w3-radio " type="radio" name="level" value="1">
+		<label class="w3-validate">Admin</label></div>
+		</div>	
+		
+		
+		<div class="w3-group">
+		<div class="w3-row">
+		 <input class="w3-input " type="text" name="username" required></input>
+		 <label class="w3-label w3-text-black ">
+		 <class="w3-left" style="width:0%">&nbsp;&nbsp;Username</label></div>
+		</div>
+		
+		<div class="w3-group">   
+		<div class="w3-row">
+		 <input class="w3-input" type="password" name="password" required></input>
+		 <label class="w3-label w3-text-black ">
+		<class="w3-left" style="width:7%">&nbsp;&nbsp;Password</label></div>
+		</div>
+		
+		<div class="w3-row w3-center">
+		 <div class="w3-container">  
+		 <input class="w3-btn w3-black" style="width:100%" type="submit" name="login" value="Log-In">
+		 </div></div>
+		 <br>
+		 <div class="w3-container w3-center">  
+		 <a class="w3-color" name="signup" href="/project/regform.php">New User? Register Here</a>
+		 </div> <br>
+		<br>
+ 
+    </form>
+
+
+	<br><br><br><br>
+	</div>
+
+</body>
+</html>

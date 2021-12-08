@@ -1,0 +1,77 @@
+<html>
+<title>Sign-Up-Page</title>
+
+<style>
+    body{
+        background-color: lightblue;
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css" >
+<body><body  background= "20.jpg">
+<!------------------------ Registration FORM ------------------------------>
+<center><img src="/public/30.jpg"  width="23%"></center>
+<br>
+
+<div class="w3-container w3-center w3-card-8 " ></div>
+
+  <div class="w3-container"  style="margin-left:35%">
+   
+	<form class="w3-form w3-card-8 w3-animate-opacity w3-white" style="width:48%" action="/project/reg.php" method="post">
+		 <div class="w3-large w3-text-black w3-center w3-black">Sign-Up-Page</div>
+		 <br>
+		<div class="w3-group"> 
+		<div class="w3-row">	
+		 <input class="w3-input" type="text" name="fname" required></input>
+		 <label class="w3-label ">
+		 <img src="/public/fnameicon.png" class="w3-left" style="width:6%">&nbsp;&nbsp;First-Name</label></div>
+		</div>
+		
+		<div class="w3-group">
+		<div class="w3-row">
+		 <input class="w3-input" type="text" name="username" required></input>
+		 <label class="w3-label ">
+		 <img src="/public/usericon.png" class="w3-left" style="width:6%">&nbsp;&nbsp;Username</label></div>
+		</div>
+		
+		<div class="w3-group"> 
+		<div class="w3-row">	
+		 <input class="w3-input" type="password" name="password" required></input>
+		 <label class="w3-label">
+		 <img src="/public/1.png" class="w3-left" style="width:21%">&nbsp;&nbsp;Password</label></div>
+		</div>
+		<div class="w3-group">   
+		 <div class="w3-row">
+		 <input class="w3-input" type="password" name="rpass" required></input>
+		 <label class="w3-label ">
+		 <img src="/public/1.jpg" class="w3-left" style="width:15%">&nbsp;&nbsp;Re-Enter-Password</label></div>
+		</div>
+		<div class="w3-group">  
+		<div class="w3-row">
+		 <input class="w3-input" type="number_formats" name="phone" required></input>		 
+		 <label class="w3-label">
+		 <img src="/public/phoneicon.jpg" class="w3-left" style="width:6%">&nbsp;&nbsp;Phone-Number</label></div>
+		</div>
+
+		<div class="w3-group">	
+		<div class="w3-row">	
+		 <input class="w3-input" type="text" name="email" required></input>
+		 <label class="w3-label">
+		 <img src="/public/emailicon.jpg" class="w3-left" style="width:6%">&nbsp;&nbsp;E-Mail</label></div>
+		</div>
+		<br>
+		
+		<div class="w3-row w3-center">
+		 <div class="w3-container">  
+		 <input class="w3-btn w3-blackle="width:100%" type="submit" name="signup" value="Sign-Up"> 
+		 </div></div>
+		 
+		 <div class="w3-container w3-center"> 
+		<a href="/project/loginform.php" class="w3-small" ><br>Already reagistered ?</a>
+		 </div>
+		<br>
+    </form>
+ </div>
+	
+</body>
+</html>
